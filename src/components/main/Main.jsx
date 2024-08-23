@@ -19,7 +19,7 @@ const Main = () => {
 	return (
 		<div className="main">
 			<div className="nav">
-				<p>Gemini</p>
+				<p>AI Chat App</p>
 				<img src={assets.user} alt="" />
 			</div>
 			<div className="main-container">
@@ -35,7 +35,7 @@ const Main = () => {
 							<div
 								className="card"
 								onClick={() =>
-									handleCardClick("Suggest Some Place To Visit In Kerala")
+									handleCardClick("Find hotels in Recoleta in Buenos Aires, and things to do")
 								}
 							>
 								<p>Find hotels in Recoleta in Buenos Aires, and things to do</p>
@@ -45,7 +45,7 @@ const Main = () => {
 								className="card"
 								onClick={() =>
 									handleCardClick(
-										"Brainstorm team bonding activities for our work retreat"
+										"Write a product description for a new type of toothbrushretreat"
 									)
 								}
 							>
@@ -55,7 +55,7 @@ const Main = () => {
 							<div
 								className="card"
 								onClick={() =>
-									handleCardClick("How to Create a Gyroscope using Disc?")
+									handleCardClick("Write code for a specific task, including edge cases")
 								}
 							>
 								<p>Write code for a specific task, including edge cases</p>
@@ -65,7 +65,7 @@ const Main = () => {
 								className="card"
 								onClick={() => {
 									handleCardClick(
-										"Create a Script for the youtube video about coding "
+										"Improve the readability of the following code "
 									);
 								}}
 							>
@@ -120,7 +120,7 @@ const Main = () => {
 					<div className="bottom-info">
 						<p>
 							Gemini may display inaccurate info, including about people, so
-							double-check its responses. Your privacy & Gemini Apps
+							double-check its responses. Made by Anand.
 						</p>
 					</div>
 				</div>
