@@ -119,8 +119,7 @@ const Main = () => {
 					</div>
 					<div className="bottom-info">
 						<p>
-							Gemini may display inaccurate info, including about people, so
-							double-check its responses. Made by Anand.
+							AI Chat Bot may display inaccurate info. Made by Anand.
 						</p>
 					</div>
 				</div>
